@@ -19,7 +19,7 @@
  *  - add more services
  */
 
-var strftime = require('strftime');
+var strftime = require('./strftime-min');
 var syslog = require('./logger-lib');
 
 var   syslogServerHost = "192.168.201.160" // syslog target host
